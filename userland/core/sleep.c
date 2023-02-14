@@ -5,7 +5,7 @@
 
 int main(int argc, char* const argv[]) {
     if (argc != 2) {
-        dprintf(STDERR_FILENO, "Usage: sleep NUMBER\n");
+        dprintf(STDERR_FILENO, "\x1b[37;1msleep: \x1b[32;1musage: \x1b[0msleep TIME (IN SECONDS)\n");
         return EXIT_FAILURE;
     }
     struct timespec req = {.tv_sec = atoi(argv[1]), .tv_nsec = 0};
