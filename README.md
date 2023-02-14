@@ -49,3 +49,9 @@ Operating system features:
 
 See the license at LICENSE. If there are any ports, the license does not apply to them, rather the original software's license does.
 </details>
+<details open>
+<summary>More documentation</summary>
+<br>
+
+More documentation can be found [here](docs/INTRODUCTION.md), which introduces you to other documents which document the different components of Psychix more.
+</details>

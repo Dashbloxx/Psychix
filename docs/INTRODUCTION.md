@@ -5,3 +5,5 @@ Psychix is programmed mostly in C, because of how efficient and *perfect* it is.
 If you want to contribute to the project, simply read [this page](CONTRIBUTING.md)
 
 If you want to learn how the operating system works, read [this page](DOCUMENTATION.md)
+
+If you want a quick guide for building yourself a cross toolchain for being able to build Psychix, then read [this](CROSSTOOLCHAIN.md)
