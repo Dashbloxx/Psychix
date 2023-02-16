@@ -6,4 +6,4 @@ If you want to contribute to the project, simply read [this page](CONTRIBUTING.m
 
 If you want to learn how the operating system works, read [this page](DOCUMENTATION.md)
 
-If you want a quick guide for building yourself a cross toolchain for being able to build Psychix, then read [this](CROSSTOOLCHAIN.md)
+If you want a quick guide for building yourself a cross toolchain for being able to build Psychix, then read [this](CROSSTOOLCHAIN.md). Please note that [this page](CROSSTOOLCHAIN.md) may be discontinued.

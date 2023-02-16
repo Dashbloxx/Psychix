@@ -15,6 +15,10 @@
 #include "syscall/syscall.h"
 #include "system.h"
 
+/*
+ *  Execute /bin/init, which will do the rest for us (which is in
+ *  userland side)
+ */
 static noreturn void init(void) {
     current->pid = current->pgid = process_generate_next_pid();
 
@@ -36,6 +40,13 @@ static void create_char_device(const char* pathname, struct inode* device) {
 }
 
 void start(uint32_t mb_magic, uintptr_t mb_info_paddr) {
+    /*
+     *  Initialize descriptor tables. When other architectures
+     *  start getting supported, we should use macros to check
+     *  which architecture we're supposed to compile for. If the
+     *  architecture that we're supposed to compile for isn't
+     *  x86-related, then let's not run gdt_init, idt_init, etc.
+     */
     gdt_init();
     idt_init();
     irq_init();

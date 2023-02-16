@@ -1,5 +1,6 @@
 # Building a cross toolchain
 Psychix will no longer be using the normal gcc compiler. Psychix will start using an elf cross compiler for the targeted architecture. For example, when building for x86, Psychix will use `i386-elf-gcc` instead of `gcc`. This tutorial will show you how to build the different toolchains.
+**This page may be removed later, because I am working on a script which automatically builds you a GCC cross compiler...**
 # Building i386-elf binutils
 Download the latest binutils `*.tar.gz` package from the GNU mirrors [here](http://ftp.gnu.org/). Then, unzip it:
 ```sh
