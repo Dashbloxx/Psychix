@@ -30,6 +30,14 @@ or
 ```
 export CC=cc
 ```
+then, simply run:
+```
+scripts/build.sh
+```
+This will build Psychix. After that, you can run Psychix by testing it with QEMU:
+```
+scripts/run.sh
+```
 </details>
 <details open>
 <summary>Checklist</summary>
