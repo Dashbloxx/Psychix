@@ -1,7 +1,7 @@
 #include "kprintf.h"
 #include "serial.h"
 #include <stdarg.h>
-#include <stdio.h>
+//#include <stdio.h>
 #include <string.h>
 
 int kputs(const char* str) {

@@ -16,7 +16,20 @@ To build Psychix, you will need to install some packages.
 * qemu (`qemu` & `qemu-system-x86` on Ubuntu)
 * cpio (`cpio` on Ubuntu)
 * mtools (`mtools` on Ubuntu)
-Support of clang will soon be added aswell, although currently I am planning on using cross compilers instead of native GCC...
+~~Support of clang will soon be added aswell~~, although currently I am planning on using cross compilers instead of native GCC...
+
+First, set your architecture (i386 is the only architecture available for now):
+```
+export ARCH=i386
+```
+Then, set your compiler (You can do `gcc`, or `clang`):
+```
+export CC=clang
+```
+or
+```
+export CC=cc
+```
 </details>
 <details open>
 <summary>Checklist</summary>
